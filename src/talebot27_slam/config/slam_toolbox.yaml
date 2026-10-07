@@ -1,0 +1,12 @@
+slam_toolbox:
+  ros__parameters:
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    mode: mapping
+    resolution: 0.02
+    max_laser_range: 3.5
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.0
+    enable_interactive_mode: false

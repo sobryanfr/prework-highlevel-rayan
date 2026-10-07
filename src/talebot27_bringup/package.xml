@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>talebot27_bringup</name>
+  <version>1.0.0</version>
+  <description>Bringup global Talebot27</description>
+  <maintainer email="kessouri.a.rayan@gmail.com">Rayan Kessouri</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>talebot27_description</exec_depend>
+  <exec_depend>talebot27_localization</exec_depend>
+  <exec_depend>talebot27_slam</exec_depend>
+  <exec_depend>talebot27_navigation</exec_depend>
+  <exec_depend>talebot27_mock</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
